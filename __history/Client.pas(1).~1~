@@ -1,0 +1,24 @@
+unit Client;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, MainFunctions, DatabaseController;
+
+type
+  TfrmClient = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmClient: TfrmClient;
+
+implementation
+
+{$R *.dfm}
+
+end.

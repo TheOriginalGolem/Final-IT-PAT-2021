@@ -1,0 +1,40 @@
+unit Client;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, MainFunctions, DatabaseController, StdCtrls,
+  Buttons, Grids, DBGrids, CheckLst, Spin;
+
+type
+  TfrmClient = class(TForm)
+    DBGrid1: TDBGrid;
+    BitBtn1: TBitBtn;
+    Label1: TLabel;
+    Edit1: TEdit;
+    Label2: TLabel;
+    Edit2: TEdit;
+    Label3: TLabel;
+    Edit3: TEdit;
+    ComboBox1: TComboBox;
+    Edit4: TEdit;
+    Label4: TLabel;
+    SpinEdit1: TSpinEdit;
+    Label5: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmClient: TfrmClient;
+  sFName,sLName,sEmail,sPhoneNum,sGender: String;
+  iQuantity: Integer;
+
+implementation
+
+{$R *.dfm}
+
+end.
